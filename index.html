@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <audio id="birthdaySong" preload="auto">
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav">
+        <source src="https://actions.google.com/sounds/v1/cartoon/cartoon_boing.ogg" type="audio/ogg">
+    </audio>
+</head>
+
+<body>
+    <div class="happiness-screen" id="happinessScreen">
+        <div class="happiness-container">
+            <div class="happiness-content" id="happinessContent">
+                <h1 class="happiness-title">Choose Your Letter Birthday Girl</h1>
+                <div class="happiness-image">
+                    <img src="images/nicole.jpg" alt="Birthday person" class="happiness-img" />
+                </div>
+                <p class="happiness-question">Which birthday letter would you like to read?(bawal mag hibi)
+                </p>
+                <div class="happiness-buttons">
+                    <button class="happiness-btn yes-btn" id="yesBtn">
+                        <img src="images/kiven.jfif" alt="Kiven" class="btn-img" />
+                        <span class="btn-text">Kiven</span>
+                    </button>
+                    <button class="happiness-btn no-btn" id="noBtn">
+                        <img src="images/others.jfif" alt="Others" class="btn-img" />
+                        <span class="btn-text">Others</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Others selection screen -->
+    <div class="why-screen" id="whyScreen">
+        <div class="why-container">
+            <div class="why-content">
+                <div class="gif-container">
+                    <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Thinking face"
+                        class="why-gif" />
+                </div>
+                <h2 class="why-title">Choose Your Napiritang Writer</h2>
+                <p class="why-question">Pili naa girlll HAHAHAHAAHA</p>
+                <div class="why-buttons">
+                    <button class="why-btn" id="ateNeneBtn">
+                        <img src="images/ate nene.jpg" alt="Ate Nene" class="btn-img" />
+                        <span class="btn-text">Ate Nene</span>
+                    </button>
+                    <button class="why-btn" id="prinsBtn">
+                        <img src="images/prins.jpg" alt="Prins" class="btn-img" />
+                        <span class="btn-text">Prins</span>
+                    </button>
+                    <button class="why-btn" id="dhayBtn">
+                        <img src="images/dhay.jpg" alt="Dhay" class="btn-img" />
+                        <span class="btn-text">Dhay</span>
+                    </button>
+                    <button class="why-btn" id="piaBtn">
+                        <img src="images/PIA.jfif" alt="Pia" class="btn-img" />
+                        <span class="btn-text">Pia</span>
+                    </button>
+                    <button class="why-btn" id="frenzBtn">
+                        <img src="images/frenz.jpg" alt="Frenz" class="btn-img" />
+                        <span class="btn-text">Frenz</span>
+                    </button>
+                </div>
+                <button class="skip-btn" id="skipBtn">Read all messages →</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Birthday card screen -->
+    <div class="card-screen" id="cardScreen">
+        <div class="card-container">
+            <div class="birthday-card" id="birthdayCard">
+                <!-- Front of the card -->
+                <div class="card-face card-front">
+                    <div class="decorative-hearts">💕</div>
+                    <h1 class="birthday-title">Happy Birthday!</h1>
+                    <div class="birthday-emoji">🎂</div>
+                    <p class="click-instruction">Click to open your special message!</p>
+                </div>
+
+                <!-- Back of the card (the letter) -->
+                <div class="card-face card-back">
+                    <button class="close-btn" id="closeBtn">×</button>
+                    <div class="birthday-letter">
+                        <div class="letter-header">
+                            <h2 class="letter-title" id="letterTitle">A Special Birthday Wish</h2>
+                            <p class="letter-date">Today's Date</p>
+                        </div>
+
+                        <div class="letter-content" id="letterContent">
+                            <!-- Content will be dynamically inserted -->
+                        </div>
+
+                        <div class="letter-signature" id="letterSignature">
+                            With love and best wishes,<br>
+                            Your Friend 💝
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to letter selection button -->
+        <button class="back-btn" id="backBtn">
+            <span>← Back</span>
+        </button>
+    </div>
+
+    <script src="birthday.js"></script>
+</body>
+
+</html>

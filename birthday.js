@@ -111,13 +111,15 @@ document.addEventListener("DOMContentLoaded", () => {
       letterTitle.textContent = "A Letter from Kiven"
       letterSignature.innerHTML = "With love,<br>Kiven 💝"
       letterContent.innerHTML = `
-        <textarea class="message-input">Hiiii gorlllll goodmorning, Happy happy birthday 20 kaaa naaaa, daee koo knowwss kung ano ilalaag kooo WAHAHAHAHHAHAHAHA, ako si nag plano kani tas ako talaga si mayo pang maisip na message. 
-
-Unii naa daw HAHAHAHAHAHA, just enjoy yourr very very special dayyy, sorry huhu na busyyy subagoo kaya dae ako naka uwi agad, hmmm... yang regalo na yann dae ko sure kung legitt yan HAHAHAHAHA pero basta i hopeee na magustohan mooo hehe, may God bless you and may God guide you in every step of your wayyy,  no matter what happens, never ever givee upp haaa, its been a very tough year and look you've madee ittt, kayaa mo yann heree langg kamii para mag support saimooo hehe, I wanna see myself/you successful with each other's back. Harayoo paa peroo harayoo naa hehe. 
-
-And last but not the least enjoy yourr dayy with your familyyyy hehe, bawiii nalang kitaa sa Saturdayyy, wishing you all the besttt.... 
-
-Te amo Mi Amor ❤️❤️❤️</textarea>
+        <textarea class="message-input">Dear Birthday Star,
+  
+  Write your personalized birthday message here...
+  
+  You can share your thoughts, memories, wishes, or anything special you'd like to say on this special day.
+  
+  Make it as heartfelt and personal as you'd like!
+  
+  Happy Birthday! 🎉</textarea>
       `
     }
   
@@ -210,7 +212,7 @@ In conclusion, HAHAHAHAHAHHA dawa sa ano man na problema dai mag suko 'cause yan
             <img src="images/PIA.jfif" alt="Pia" style="border-radius: 50%; width: 40px; height: 40px;" />
             From Pia:
           </h3>
-          <textarea class="message-input" style="min-height: 120px; margin-bottom: 15px;>"HAPPY BIRTHDAY ATE NICSSS!,I hope u enjoy ur day po!,thank u po for helping me for my assignments(or kua),especially thank u po for bieng a good sister for me!,that's all po HAPPY BIRTHDAYYY POOO ulittt!!♥️🥳🎂</textarea>
+          <textarea class="message-input" style="min-height: 120px; margin-bottom: 15px;">HAPPY BIRTHDAY ATE NICSSS!,I hope u enjoy ur day po!,thank u po for helping me for my assignments(or kua),especially thank u po for bieng a good sister for me!,that's all po HAPPY BIRTHDAYYY POOO ulittt!!♥️🥳🎂</textarea>
         </div>
         
         <div style="margin-bottom: 20px;">

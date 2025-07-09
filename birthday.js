@@ -165,7 +165,7 @@ In conclusion, HAHAHAHAHAHHA dawa sa ano man na problema dai mag suko 'cause yan
     }
   
     function setupAllMessages() {
-      letterTitle.textContent = "All in One Birthday Messages from Everyone"
+      letterTitle.textContent = "All in One Birthday Messages from Everyone (Zoom Out for better view!)"
       letterSignature.innerHTML = "With love from all of us 💝"
       letterContent.innerHTML = `
         <div style="margin-bottom: 20px;">
